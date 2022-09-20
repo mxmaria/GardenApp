@@ -11,23 +11,25 @@ struct MainScreenView: View {
     var body: some View {
         TabView {
             VegetableListView()
+                .toolbar {
+                    ToolbarItem(placement: .principal) {
+                        Image(systemName: "leaf.fill")
+                            .foregroundColor(.white)
+                    }
+                }
+                .embedInNavigationView()
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
+            
             Text("Second Page")
+                .embedInNavigationView()
                 .tabItem {
                     Label("My Garden", systemImage: "leaf")
                 }
             
         }.accentColor(.mint)
         .navigationTitle("GreenApp")
-        .toolbar {
-            ToolbarItem(placement: .principal) {
-                Image(systemName: "leaf.fill")
-                    .foregroundColor(.white)
-            }
-        }
-        .embedInNavigationView()
     }
 }
 

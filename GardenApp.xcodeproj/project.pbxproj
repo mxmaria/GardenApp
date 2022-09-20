@@ -19,6 +19,10 @@
 		6B5103A428D3332D0007DD74 /* VegetableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5103A328D3332D0007DD74 /* VegetableListView.swift */; };
 		6B5103A728D34A550007DD74 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5103A628D34A550007DD74 /* View+Extensions.swift */; };
 		6B5103A928D34FDE0007DD74 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5103A828D34FDE0007DD74 /* MainScreenView.swift */; };
+		6B5103AB28D46ACC0007DD74 /* VegetableDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5103AA28D46ACC0007DD74 /* VegetableDetailsView.swift */; };
+		6B5103AD28D471860007DD74 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5103AC28D471860007DD74 /* AboutView.swift */; };
+		6B5103AF28D4731F0007DD74 /* TwoColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5103AE28D4731F0007DD74 /* TwoColumnView.swift */; };
+		6B5103B228D4749F0007DD74 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5103B128D4749F0007DD74 /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		6B5103A328D3332D0007DD74 /* VegetableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableListView.swift; sourceTree = "<group>"; };
 		6B5103A628D34A550007DD74 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		6B5103A828D34FDE0007DD74 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		6B5103AA28D46ACC0007DD74 /* VegetableDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableDetailsView.swift; sourceTree = "<group>"; };
+		6B5103AC28D471860007DD74 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		6B5103AE28D4731F0007DD74 /* TwoColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnView.swift; sourceTree = "<group>"; };
+		6B5103B128D4749F0007DD74 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 			children = (
 				6B5103A328D3332D0007DD74 /* VegetableListView.swift */,
 				6B5103A828D34FDE0007DD74 /* MainScreenView.swift */,
+				6B5103AA28D46ACC0007DD74 /* VegetableDetailsView.swift */,
+				6B5103B028D473280007DD74 /* DetailesView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +149,16 @@
 				6B5103A628D34A550007DD74 /* View+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6B5103B028D473280007DD74 /* DetailesView */ = {
+			isa = PBXGroup;
+			children = (
+				6B5103AC28D471860007DD74 /* AboutView.swift */,
+				6B5103AE28D4731F0007DD74 /* TwoColumnView.swift */,
+				6B5103B128D4749F0007DD74 /* DescriptionView.swift */,
+			);
+			path = DetailesView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B51039B28D328EB0007DD74 /* Constants.swift in Sources */,
+				6B5103B228D4749F0007DD74 /* DescriptionView.swift in Sources */,
 				6B5103A728D34A550007DD74 /* View+Extensions.swift in Sources */,
 				6B5103A928D34FDE0007DD74 /* MainScreenView.swift in Sources */,
+				6B5103AB28D46ACC0007DD74 /* VegetableDetailsView.swift in Sources */,
+				6B5103AD28D471860007DD74 /* AboutView.swift in Sources */,
 				6B51038F28D327FF0007DD74 /* GardenApp.xcdatamodeld in Sources */,
 				6B51039D28D32A2B0007DD74 /* Webservice.swift in Sources */,
 				6B51038C28D327FF0007DD74 /* Persistence.swift in Sources */,
@@ -221,6 +244,7 @@
 				6B5103A228D32E190007DD74 /* VegetableListViewModel.swift in Sources */,
 				6B51039F28D32A970007DD74 /* VegetableModel.swift in Sources */,
 				6B5103A428D3332D0007DD74 /* VegetableListView.swift in Sources */,
+				6B5103AF28D4731F0007DD74 /* TwoColumnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,7 @@ struct Constants {
     }
     
     struct Colors {
-        static let lightGrayColor = Color(#colorLiteral(red: 0.9268731475, green: 0.9268732071, blue: 0.9268732071, alpha: 1))
+        static let lightGrayColor = Color(#colorLiteral(red: 0.9450538754, green: 0.9529871345, blue: 0.9567440152, alpha: 1))
+        static let lightBlueColor = Color(#colorLiteral(red: 0.7846713662, green: 0.8902227283, blue: 0.8900751472, alpha: 1))
     }
 }

@@ -16,10 +16,15 @@ struct GardenAppApp: App {
     }
     
     private func setupTheme() {
-        UINavigationBar.appearance().backgroundColor = UIColor(.green)
+        
+        let headerAppearance = UINavigationBarAppearance()
+        
+        headerAppearance.backgroundColor = UIColor(.green)
         let textAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        UINavigationBar.appearance().titleTextAttributes = textAttributes
-        UINavigationBar.appearance().largeTitleTextAttributes = textAttributes
+        headerAppearance.titleTextAttributes = textAttributes
+        headerAppearance.largeTitleTextAttributes = textAttributes
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().scrollEdgeAppearance = headerAppearance
     }
 
     var body: some Scene {
